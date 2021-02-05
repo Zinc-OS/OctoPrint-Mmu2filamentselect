@@ -15,7 +15,7 @@ The dialog will timeout after a given time (see [Configuration](#configuration),
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/derPicknicker1/OctoPrint-Mmu2filamentselect/archive/master.zip
+    https://github.com/tkoecker/OctoPrint-Mmu2filamentselect/archive/master.zip
 
 ## Configuration
 

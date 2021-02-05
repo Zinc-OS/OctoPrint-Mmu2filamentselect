@@ -137,10 +137,10 @@ class MMU2SelectPlugin(octoprint.plugin.TemplatePlugin, octoprint.plugin.Setting
 
 				type="github_release",
 				current=self._plugin_version,
-				user="derPicknicker1",
+				user="tkoecker",
 				repo="OctoPrint-Mmu2filamentselect",
 
-				pip="https://github.com/derPicknicker1/OctoPrint-Mmu2filamentselect/archive/{target_version}.zip"
+				pip="https://github.com/tkoecker/OctoPrint-Mmu2filamentselect/archive/{target_version}.zip"
 			)
 		)
 

@@ -14,20 +14,20 @@ plugin_package = "octoprint_mmu2filamentselect"
 plugin_name = "OctoPrint-Mmu2filamentselect"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
-plugin_version = "1.0.2"
+plugin_version = "1.0.3"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
-plugin_description = """This plugin shows a dialog to select the filament when a print on a Prusa printer with MMU2 is startet in single mode."""
+plugin_description = """This plugin shows a dialog to select the filament when a print on a Prusa printer with MMU2 is started in single mode."""
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data via __plugin_author__ in the plugin module
-plugin_author = "Florian Schütte"
+plugin_author = "Thomas Köckerbauer, previously Florian Schütte"
 
 # The plugin's author's mail address.
-plugin_author_email = "octoprint@florian-schuette.de"
+plugin_author_email = "tkoecker@gmx.net"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/derPicknicker1/OctoPrint-Mmu2filamentselect"
+plugin_url = "https://github.com/tkoecker/OctoPrint-Mmu2filamentselect"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"
