@@ -33,7 +33,13 @@ $(function() {
             var opts = {
                 title: gettext("Prusa MMU2 filament select"),
                 message: gettext("Select the filament spool you wish to use for this single color print."), 
-                selections: {0:"Filament 1",1:"Filament 2",2:"Filament 3",3:"Filament 4",4:"Filament 5"},
+                selections: {
+                    0:"Filament 1: "+self.settings.settings.plugins.mmu2filamentselect.filament1(),
+                    1:"Filament 2: "+self.settings.settings.plugins.mmu2filamentselect.filament2(),
+                    2:"Filament 3: "+self.settings.settings.plugins.mmu2filamentselect.filament3(),
+                    3:"Filament 4: "+self.settings.settings.plugins.mmu2filamentselect.filament4(),
+                    4:"Filament 5: "+self.settings.settings.plugins.mmu2filamentselect.filament5()
+                },
                 onselect: function(index) {
                     if (index > -1) {
                         self._select(index);

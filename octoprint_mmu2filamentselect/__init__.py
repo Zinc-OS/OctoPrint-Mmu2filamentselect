@@ -50,7 +50,14 @@ class MMU2SelectPlugin(octoprint.plugin.TemplatePlugin, octoprint.plugin.Setting
 	#~ SettingsPlugin
 
 	def get_settings_defaults(self):
-		return dict(timeout=30)
+		return dict(
+			timeout=30,
+			filament1="",
+			filament2="",
+			filament3="",
+			filament4="",
+			filament5=""
+		)
 
 	def on_settings_save(self, data):
 		try:
